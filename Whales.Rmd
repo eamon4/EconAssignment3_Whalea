@@ -1,0 +1,29 @@
+---
+title: "Whales Econ Assignment"
+author: "Eamon Devlin"
+date: "5/16/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse) # The tidyverse!
+library(corrplot) # For correlation matrices
+library(car)
+library(stargazer)
+library(knitr)
+library(kableExtra)
+library(RColorBrewer)
+```
+
+```{r}
+whale <- read_csv("HW3Data.csv")
+```
+
+```{r}
+
+```
+
