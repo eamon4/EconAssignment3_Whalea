@@ -25,7 +25,20 @@ whale <- read_csv("HW3Data.csv")
 
 ```{r}
 
-#testing
+whale_vote_lm <- lm(vote ~ risk + bid + NEP + income + age, data = whale)
 
+whale_vote_lm
+summary(whale_vote_lm)
+
+# For visualization we can use the equation in the technical appendix
+# Could do a table for intepretation with coefficent imoact and meaning
+
+# Check what the base condition is, age would appear to be "oversixty", "middle" for income, 
 ```
+
+#2
+Risk for one whale would be 4% (20/5)
+
+Solve for bid
+
 
